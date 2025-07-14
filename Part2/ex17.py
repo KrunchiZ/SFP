@@ -5,8 +5,7 @@ import random
 adj = ["Fearless", "Dumb", "Merciful", "Dandy", "Handsome", "Old"]
 animal = ["Otter", "Badger", "Womble", "Falcon", "Bat", "Husky"]
 
-print("What is your name?")
-name = input()
+name = input("What is your name?\n")
 codename = random.choice(adj) + f" {random.choice(animal)}"
 num = random.randrange(1,100)
 print(f"{name}, your codename is: {codename}\nYour lucky number is: {num}")

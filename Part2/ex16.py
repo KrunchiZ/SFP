@@ -5,8 +5,6 @@
 # "Hi Marvin, I heard you love cendol!"
 
 # The code below is not complete. Figure it out!
-print("What is your name?")
-name = input()
-print("What is your favourite food?")
-food = input()
+name = input("What is your name?\n")
+food = input("What is your favourite food?\n")
 print(f"Hi {name}, I heard you love {food}!")
