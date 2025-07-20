@@ -54,7 +54,7 @@ def convert(amount: float, base: str, target: str) -> float:
 
 # --- Streamlit App ---
 st.set_page_config(page_title="Currency Converter", layout="wide")
-st.title("💱 Ringgit Converter")
+st.title("💱 Currency Converter")
 
 # Currency options
 currency_options = list(EXCHANGE_RATES.keys())
